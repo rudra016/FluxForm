@@ -104,7 +104,7 @@ const EditForm = ({ params }) => {
         <RWebShare
         data={{
           text:jsonForm?.formHeading+', Build your own AI form',
-          url: https://flux-form.vercel.app/+'aiform/'+record?.id,
+          url: 'https://flux-form.vercel.app/aiform/'+record?.id,
           title: jsonForm?.formTitle,
         }}
         onClick={() => console.log("shared successfully!")}
