@@ -33,6 +33,14 @@ const Hero = () => {
     </div>
   </div>
 </section>
+      <div className="fixed inset-x-0 bottom-0 p-4">
+    <div className="rounded-lg bg-primary px-4 py-3 text-white shadow-lg">
+      <p className="text-center text-sm font-medium">
+        Made with 💖 by <span><a href="https://github.com/rudra016" className="inline-block underline"> Rudra </a></span> 
+        
+      </p>
+    </div>
+  </div>
     </div>
   )
 }
