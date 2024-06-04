@@ -1,47 +1,46 @@
-# FluxForm
+<div align="center">
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextjs" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/daisyui-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="tailwindcss" />
+     <img src="https://img.shields.io/badge/Drizzle-C5F74F.svg?style=for-the-badge&logo=Drizzle&logoColor=black" alt="tailwindcss" />
+      <img src="https://img.shields.io/badge/Clerk-6C47FF.svg?style=for-the-badge&logo=Clerk&logoColor=white" alt="tailwindcss" />
+   <img src="https://img.shields.io/badge/DaisyUI-5A0EF8.svg?style=for-the-badge&logo=DaisyUI&logoColor=white" alt="tailwindcss" />
+   <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2.svg?style=for-the-badge&logo=Google-Gemini&logoColor=white" alt="tailwindcss" />
+</div>
+<h3 align="center">FluxForm: AI-Powered Form Builder</h3>
+
+## <a name="introduction">🤖 Introduction</a>
 
 FluxForm is an AI-powered platform designed to simplify the creation of forms, surveys, and questionnaires. Built with Next.js, DaisyUI, HyperUI, Drizzle ORM, Neon Database, and Clerk, FluxForm offers an intuitive and efficient form-building experience.
 
-## Features
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **AI-Powered Form Creation**: Intelligent suggestions for form fields and layouts.
-- **Customizable Templates**: Variety of templates to suit different needs.
-- **Real-Time Collaboration**: Work together with your team seamlessly.
-- **Advanced Analytics**: Gain insights from form responses with detailed analytics.
+- Next.js
+- DaisyUI
+- HyperUI
+- Drizzle ORM
+- Neon Database
+- Clerk
 
-## Tech Stack
+## <a name="features">🔋 Features</a>
 
-- **Next.js**: React framework for server-rendered applications.
-- **DaisyUI**: Tailwind CSS components library for building user interfaces.
-- **HyperUI**: Another utility-first CSS framework to style your components.
-- **Drizzle ORM**: TypeScript ORM for type-safe database queries.
-- **Neon Database**: Scalable and secure relational database.
-- **Clerk**: Authentication and user management solution.
+👉 **AI-Powered Form Creation**: Intelligent suggestions for form fields and layouts.
 
-## Getting Started
+👉 **Customizable Templates**: Variety of templates to suit different needs.
 
-### Prerequisites
+👉 **Real-Time Collaboration**: Work together with your team seamlessly.
 
-- Node.js (v14 or above)
-- npm or yarn
-- Neon Database account
-- Clerk account
+👉 **Advanced Analytics**: Gain insights from form responses with detailed analytics.
 
-### Installation
+👉 **User Authentication**: Secure user authentication and management through Clerk.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/rudra016/fluxform.git
-   cd fluxform
+👉 **Responsive Design**: Beautiful and responsive design using DaisyUI and HyperUI.
 
-2. Install dependencies:
-  ```bash
-  npm install
-  or
-  yarn install
+👉 **Database Management**: Efficient and scalable database management with Drizzle ORM and Neon Database.
 
-  and
+<h2>📬 Contact</h2>
 
-  npm run dev
-  or
-  yarn dev
+If you want to contact me, you can reach me through below handles.
+
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rudra-kumar-897264227/)
