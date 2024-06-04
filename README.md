@@ -31,7 +31,7 @@ FluxForm is an AI-powered platform designed to simplify the creation of forms, s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/fluxform.git
+   git clone https://github.com/rudra016/fluxform.git
    cd fluxform
 
 2. Install dependencies:
