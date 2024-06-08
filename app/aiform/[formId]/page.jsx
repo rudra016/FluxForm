@@ -33,6 +33,7 @@ const LiveAiForm = ({params}) => {
       selectedTheme={record?.theme}
       editable={false}
       formId={record?.id}
+      enableSignIn={record?.enableSignIn}
       />
       }
       <Link href={'/'} className='flex gap-2 items-center bg-black text-white px-3 py-1 rounded-full fixed bottom-5 left-5 cursor-pointer'>

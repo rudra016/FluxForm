@@ -15,9 +15,12 @@ import { db } from "@/configs";
 import { userResponses } from "@/configs/schema";
 import moment from "moment/moment";
 import { toast } from "sonner";
+import { SignInButton, useUser } from "@clerk/nextjs";
+import { Button } from "@/components/ui/button";
 
-const FormUi = ({ jsonForm, selectedTheme, onFieldUpdate, deleteField, selectedStyle, editable=true, formId=0 }) => {
+const FormUi = ({ jsonForm, selectedTheme, onFieldUpdate, deleteField, selectedStyle, editable=true, formId=0, enableSignIn=false }) => {
   let formRef = useRef();
+  const {user, isSignedIn} = useUser();
   const formStyle = {
     boxShadow: selectedStyle && selectedStyle.key === 'boxshadow' ? selectedStyle.value : 'none',
     border: selectedStyle && selectedStyle.key === 'border' ? selectedStyle.value : 'none'
@@ -130,7 +133,16 @@ const FormUi = ({ jsonForm, selectedTheme, onFieldUpdate, deleteField, selectedS
           )}
         </div>
       ))}
-      <button type="submit" className="btn btn-primary">Submit</button>
+      {!enableSignIn?
+      <button type="submit" className="btn btn-primary">Submit</button>:
+      
+      isSignedIn?
+    <button type="submit" className="btn btn-primary">Submit</button>:
+    <Button>
+      <SignInButton mode="modal">Sign In before Submit</SignInButton>
+    </Button>  
+    
+      }
     </form>
   );
 };

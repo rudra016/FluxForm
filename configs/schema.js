@@ -1,4 +1,4 @@
-const { pgTable, serial, varchar, text, integer } = require("drizzle-orm/pg-core");
+const { pgTable, serial, varchar, text, integer, boolean } = require("drizzle-orm/pg-core");
 
 export const JsonForms = pgTable('jsonForms',{
     id: serial('id').primaryKey(),
@@ -7,7 +7,8 @@ export const JsonForms = pgTable('jsonForms',{
     background:varchar('background'),
     style:varchar('style'),
     createdBy : varchar('createdBy').notNull(),
-    createdAt : varchar('createdAt').notNull()
+    createdAt : varchar('createdAt').notNull(),
+    enableSignIn : boolean('enableSignIn').default(false)
 })
 
 export const userResponses = pgTable('userResponses',{

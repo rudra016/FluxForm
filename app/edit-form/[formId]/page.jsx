@@ -131,6 +131,10 @@ const EditForm = ({ params }) => {
               updateControllerFields(value, "style");
               setSelectedStyle(value)
             }}
+            setSignInEnable={(value)=>{
+              updateControllerFields(value, "enableSignIn");
+      
+            }}
           />
         </div>
         <div
