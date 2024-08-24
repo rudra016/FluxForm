@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "FluxForm AI",
-  description: "Your go to Ai form builder",
+  description: "Your go to AI Form Builder, Generate forms in seconds.",
 };
 
 export default function RootLayout({ children }) {
